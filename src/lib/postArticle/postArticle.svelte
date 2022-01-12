@@ -1,8 +1,6 @@
 <script>
 
     import { createEventDispatcher} from 'svelte'
-    import Fa from 'svelte-fa'
-    import { faPlus } from '@fortawesome/free-solid-svg-icons'
     
     let dispatch = createEventDispatcher();
     let opp = {
@@ -51,7 +49,7 @@
                 </div>
                 <div class="container btnAdd"  align="center">
                     <div class="row col-lg-6">
-                        <button type="submit" class="btn btn-success"><Fa icon={faPlus} size="md" /></button>
+                        <button type="submit" class="btn btn-success">Post</button>
                     </div>
                 </div>
             </form>
