@@ -1,6 +1,5 @@
 <script>
-  import Fa from 'svelte-fa'
-  import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
 </script>
 
 <footer> 
@@ -9,7 +8,7 @@
             <div class="col colstuff">
                 <ul class="list-inline social-buttons" center="true">
                     <li>Contact Me:</li>
-                    <li class=""><div class="container email"><a href="mailto:tyrell.snyders@gmail.com"><Fa icon={faEnvelope} size="lg" /></a></div></li>
+                    <li class=""><div class="container email"><a href="mailto:tyrell.snyders@gmail.com">email</a></div></li>
                 </ul>
             </div>
             <div class="col colstuff">
